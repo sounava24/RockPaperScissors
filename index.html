@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 id="hh">Press One</h1>
+
+    <div class="container1">
+      <div class="container2">
+        <h2>Your Selection</h2>
+        <div>
+          <button onclick="alertfunctionrock()">
+            <img src="./ro.png" alt="rock" ">
+          </button>
+        </div>
+        <div>
+          <button onclick="alertfunctionpaper()"><img src="./pap.jpeg" alt="paper" /></button>
+        </div>
+        <div>
+          <button onclick="alertfunctionscissors()"><img src="./sci.jpeg" alt="Scissors" /></button>
+        </div>
+        <h2 id="MScore">Your Score: <span id="change1">0</span> </h2>
+      </div>
+      <div class="container2">
+        <h2>Computer Selection</h2>
+        <img src="./ro.png" alt="computer" id="compi" />
+        <h2 id="CScore">Computer Score : <span id="change2">0</span></h2>
+      </div>
+    </div>
+
+    <script src="rock.js"></script>
+  </body>
+</html>
