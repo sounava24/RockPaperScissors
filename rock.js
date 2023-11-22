@@ -6,19 +6,19 @@ function alertfunctionrock() {
     document.getElementById("hh").innerText = "Tie";
     document.getElementById("change1").innerText =`${mScore}`;
     document.getElementById("change2").innerText =`${cScore}`;
-    document.getElementById("compi").innerText.src="./ro.png";
+    document.getElementById("compi").src="ro.png";
   } else if (comp == 2) {
     cScore++;
     document.getElementById("hh").innerText = "You LOST";
     document.getElementById("change1").innerText =`${mScore}`;
     document.getElementById("change2").innerText =`${cScore}`;
-    document.getElementById("compi").innerHTML.src="./pap.jpeg";
+    document.getElementById("compi").src="pap.jpeg";
   } else {
     mScore++;
     document.getElementById("hh").innerText = "You WON";
     document.getElementById("change1").innerText =`${mScore}`;
     document.getElementById("change2").innerText =`${cScore}`;
-    document.getElementById("compi").innerHTML.src="./sci.jpeg";
+    document.getElementById("compi").src="sci.jpeg";
   }
 }
 
@@ -28,22 +28,19 @@ function alertfunctionpaper() {
     document.getElementById("hh").innerText = "Tie";
     document.getElementById("change1").innerText =`${mScore}`;
     document.getElementById("change2").innerText =`${cScore}`;
-    document.getElementById("compi").innerHTML =
-      '<img src="./ro.png" alt="rock" >';
+    document.getElementById("compi").src="pap.jpeg";
   } else if (comp == 3) {
     cScore++;
     document.getElementById("hh").innerText = "You LOST";
     document.getElementById("change1").innerText =`${mScore}`;
     document.getElementById("change2").innerText =`${cScore}`;
-    document.getElementById("compi").innerHTML =
-      '<img src="./pap.jpeg" alt="paper" />';
+    document.getElementById("compi").src="sci.jpeg";
   } else {
     mScore++;
     document.getElementById("hh").innerText = "You WON";
     document.getElementById("change1").innerText =`${mScore}`;
     document.getElementById("change2").innerText =`${cScore}`;
-    document.getElementById("compi").innerText=
-      '<img src="./sci.jpeg" alt="Scissors"/>';
+    document.getElementById("compi").src="ro.png";
   }
 }
 
@@ -53,21 +50,18 @@ function alertfunctionscissors() {
     document.getElementById("hh").innerText = "Tie";
     document.getElementById("change1").innerText =`${mScore}`;
     document.getElementById("change2").innerText =`${cScore}`;
-    document.getElementById("compi").innerHTML =
-      '<img src="./ro.png" alt="rock" >';
+    document.getElementById("compi").src="sci.jpeg";
   } else if (comp == 1) {
     cScore++;
     document.getElementById("hh").innerText = "You LOST";
     document.getElementById("change1").innerText =`${mScore}`;
     document.getElementById("change2").innerText =`${cScore}`;
-    document.getElementById("compi").innerHTML =
-      '<img src="./pap.jpeg" alt="paper" />';
+    document.getElementById("compi").src="ro.png";
   } else {
     mScore++;
     document.getElementById("hh").innerText = "You WON";
     document.getElementById("change1").innerText =`${mScore}`;
     document.getElementById("change2").innerText =`${cScore}`;
-    document.getElementById("compi").innerHTML =
-      '<img src="./sci.jpeg" alt="Scissors"/>';
+    document.getElementById("compi").src="pap.jpeg";
   }
 }
